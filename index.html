@@ -8,7 +8,8 @@
     <style>
         body {
             font-family: 'Times New Roman', Times, serif;
-            margin: 0px;
+            margin: 20px;
+            
         }
 
 
@@ -130,7 +131,43 @@
             text-align: center;
             padding: 6px;
             border-radius: 3px;
-            display: inline-block;
+            display: inline-block; 
+        }
+
+
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            background-color: black;
+            gap: 1px;
+            margin: 50px;
+        }
+
+
+        .grid>div {
+            text-align: center;
+            padding: 30px;
+            padding-bottom: 10px;
+            background: white;
+        }
+
+        .Maga {
+
+            text-align: center;
+        }
+
+        .gallery {
+            display: flex;
+            height: 200px;
+            margin: 60px;
+    
+        }
+
+        .gallery img {
+            object-fit: cover;
+                flex-grow: 1;
+
         }
 
       
@@ -264,11 +301,61 @@
             </div>
         </div>
 
-        
-         
-
 
     </main>
+    <h2 class="Maga">Gallery</h2>
+    <section class="gallery">
+
+        <img src="./images/on-the-shore-borrowdale-and-derwent-water-1518851.webp" alt="">
+
+        <img src="./images/1713421064651.png" alt="">
+
+        <img src= "./images/WOPA160517_D056-resized.jpg" alt="">
+
+        <img src="./images/Zugpsitze_mountain.jpg" alt="">
+     
+
+
+
+
+
+
+
+    </section>
+
+<h2 class="Maga">Fearles</h2>
+    <div class="grid">
+        <div>
+            <img src="./images/airplane-48.png" alt="">
+            <h4>One</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut, quo! dnjhjujdk kkdj</p>
+        </div>
+        <div>
+            <img src="./images/map_marker-48.png" alt="">
+            <h4>One</h4>
+            <p>Pariatur reiciendis ducimus ipsa est nam aut repudiandae velit similique.</p>
+        </div>
+        <div>
+            <img src="./images/movie-48.png" alt="">
+            <h4>One</h4>
+            <p>Voluptate fugit dicta hic, assumenda mollitia repudiandae nesciunt aperiam provident. faf fkkiowuj idikl jjfikkf</p>
+        </div>
+        <div>
+            <img src="./images/alarm_clock-48.png" alt="">
+            <h4>One</h4>
+            <p>Quae, repellendus assumenda error facere ducimus expedita quis maiores illo! oesoifh  ijpoh</p>
+        </div>
+        <div>
+            <img src="./images/face-48.png" alt="">
+            <h4>One</h4>
+            <p>Quae, repellendus assumenda error facere ducimus expedita quis maiores illo! fsef  e kkiujj </p>
+        </div>
+        <div>
+            <img src="./images/genius-48.png" alt="">
+            <h4>One</h4>
+            <p>Quae, repellendus assumenda error facere ducimus expedita quis maiores illo! adaddad ajffo ppmofm  opjf;lkmo  kj;ljo</p>
+        </div>
+    </div>
 
 
 <footer>
