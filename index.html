@@ -258,6 +258,32 @@
             
         }
         }
+        @media (max-width: 600px){
+            nav ul li{
+                display: none;
+            }
+             main .container {
+                flex-direction: column-reverse;
+            }
+            main .container2{
+                flex-direction: column;
+            }
+            .gallery img:nth-last-child(2)
+            {
+                display: none;
+                flex-shrink: 0;
+            }
+            .gallery img:nth-last-child(1){
+                width: 100%;
+            }
+            .grid{
+                grid-template-columns: 1fr;
+            grid-template-rows: 1fr;
+            }
+
+
+
+        }
 
 
   
